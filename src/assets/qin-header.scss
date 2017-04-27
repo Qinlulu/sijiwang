@@ -1,0 +1,51 @@
+.qin-header {
+  width: 100%;
+  height: 0.45rem;
+  display: flex;
+  text-align: center;
+  background: #5B248A;
+  line-height: 0.45rem; }
+  .qin-header a {
+    flex: 1;
+    color: #fff;
+    font-size: 0.14rem; }
+    .qin-header a:nth-child(1) {
+      font-size: 0.20rem; }
+    .qin-header a:nth-child(2) {
+      flex: 5; }
+      .qin-header a:nth-child(2) strong {
+        width: 100%;
+        height: 0.2rem;
+        line-height: 0.2rem;
+        padding: 0.05rem 0;
+        background: #fff;
+        border-radius: 8px;
+        display: block;
+        margin-top: 0.07rem; }
+        .qin-header a:nth-child(2) strong em {
+          width: 0.52rem;
+          height: 0.2rem;
+          display: block;
+          position: relative;
+          color: #737373;
+          border-right: 1px solid #737373;
+          float: left; }
+          .qin-header a:nth-child(2) strong em ul {
+            width: 1.0rem;
+            height: auto;
+            position: absolute;
+            background: #313131;
+            top: 0.26rem;
+          }
+            .qin-header a:nth-child(2) strong em ul li {
+              width: 100%;
+              height: 0.35rem;
+              line-height:0.35rem;
+              border-bottom: 1px solid #fff; }
+              .qin-header a:nth-child(2) strong em ul li:nth-child(2) {
+                border-bottom: none; }
+        .qin-header a:nth-child(2) strong input {
+          display: inline-block;
+          float: left;
+          text-indent: 10px;
+          line-height: 0.20rem; }
